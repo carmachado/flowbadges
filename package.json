@@ -1,0 +1,30 @@
+{
+  "name": "flowbadges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Carlos Eduardo Machado <cmachado.dev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.4",
+    "dotenv": "^10.0.0",
+    "download": "^8.0.0",
+    "ejs": "^3.1.5",
+    "express": "^4.15.2",
+    "firebase": "^8.6.2",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "twitch": "^4.5.5",
+    "twitch-auth": "^4.5.5",
+    "twitter": "^1.7.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
